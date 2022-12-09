@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (num2 = '0'; num2 <= '9'; num2++)
 		{
-			if (!((num1 == num2) || (num1 > ones)))
+			if (!((num1 == num2) || (num1 > num2)))
 			{
 				putchar(num1);
 				putchar(num2);
