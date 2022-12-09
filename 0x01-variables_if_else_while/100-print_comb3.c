@@ -18,7 +18,7 @@ int main(void)
 			 if (num1 + num2)
 			 {
 				 putchar(44);
-				 puutchar(32);
+				 putchar(32);
 			 }
 		 }
 	 }
