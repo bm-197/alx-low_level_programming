@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int main
+int main(void)
 {
 	int num = 48;
 
@@ -16,5 +16,5 @@ int main
 		num++;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
