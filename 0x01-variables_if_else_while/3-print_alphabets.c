@@ -16,7 +16,7 @@ int main(void)
 		ch++;
 	}
 
-	ch = 'A'
+	ch = 'A';
 
 	while (ch <= 'Z')
 	{
