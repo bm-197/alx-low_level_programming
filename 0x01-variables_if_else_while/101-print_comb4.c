@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - prints all possible different combination of three digit
+ * Return: Always 0 (success)
+ */
+
 int main(void)
 {
 	int num1 = '0';
