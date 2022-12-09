@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 
-int main
+int main(void)
 {
 	int num = 48;
 
