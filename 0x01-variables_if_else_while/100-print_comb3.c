@@ -14,7 +14,7 @@ int main(void)
 		 for (num2 = 48; num2 <= 57; num2++)
 		 {
 			 putchar(num1);
-			 purchar(num2);
+			 putchar(num2);
 			 if (num1 + num2)
 			 {
 				 putchar(44);
