@@ -15,6 +15,11 @@ int main(void)
 		{
 			putchar(num1);
 			putchar(num2);
+			if (num1 + num2 < 144)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
 	}
 	putchar(10);
