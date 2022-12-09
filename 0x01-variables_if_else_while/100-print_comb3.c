@@ -8,19 +8,25 @@
 
 int main(void)
 {
-	 for (num1 = 48; num1 <= 57; num1++)
+	int num1 = '0';
+	int num2 = '0';
+
+	 for (num1 = '0'; num1 <= '9'; num1++)
 	 {
-		 for (num2 = 48; num2 <= 57; num2++)
+		 for (num2 = '0'; num2 <= '9'; num2++)
 		 {
-			 putchar(num1);
-			 purchar(num2);
-			 if (num1 + num2)
+			 if (!((num1 == num2) || (num1 > ones)))
 			 {
-				 putchar(44);
-				 puutchar(32);
+				 putchar(num1);
+				 putchar(num2);
+				 if (!(num2 == '9' && num1 == '8'))
+				 {
+					 putchar(',');
+					 putchar(' ');
+				 }
 			 }
 		 }
 	 }
-	 putchar(10);
+	 putchar('\n');
 	 return (0);
 }
