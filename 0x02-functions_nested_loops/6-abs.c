@@ -2,16 +2,17 @@
 
 /**
  * _abs - compute absolute value
+ * @n: value to be computed
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	if ( int >= 0)
+	if ( n >= 0)
 	{
-		_putchar(int);
+		_putchar(n);
 	}
 	else
 	{
-		_putchar(int * -1);
+		_putchar(n * -1);
 	}
 }
