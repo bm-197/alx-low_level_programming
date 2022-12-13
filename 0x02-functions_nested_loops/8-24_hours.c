@@ -1,21 +1,24 @@
 #include "main.h"
 
 /**
- * jack_baure - print every minute of the day
+ * jack_bauer - print every minute of the day
  */
 
-int jack_baue(void)
+void jack_bauer(void)
 {
-	int i, j;
-	for (i = 0; i <= 2; i++)
+	int hr;
+	int min;
+
+	for (hr = 0; hr < 24; hr++)
 	{
-		_putchar(i);
-		for (j = 0; j <= 3; j++)
+		for (min = 0; min < 60; min++)
 		{
-			_putchar(j);
+			_putchar((hr / 10) + '0');
+			_putchar((hr % 10) + '0');
 			_putchar(':');
+			_putchar((min / 10) + '0');
+			_putchar((min % 10) + '0');
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
