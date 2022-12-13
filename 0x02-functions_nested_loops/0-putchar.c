@@ -7,6 +7,6 @@
 
 int main()
 {
-	pritnf("__putchar\n");
+	pritnf("_putchar\n");
 	return 0;
 }
