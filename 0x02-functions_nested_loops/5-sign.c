@@ -3,12 +3,12 @@
 /**
  * print_sign - sign of a number
  * @n: the number to be checked
- * Return: 1 (number greater than zer), 0 (number is zero), -1 (number less than 0)
+ * Return: 1 (greater than zero), 0 (is zero), -1 (less than 0)
  */
 
 int print_sign(int n)
 {
-	if (n >= 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
