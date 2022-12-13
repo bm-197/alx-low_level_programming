@@ -1,18 +1,19 @@
-#inclue "main.h"
+#include "main.h"
 
 /**
  * _abs - compute absolute value
  * @n: value to be computed
+ * Return: abs value
  */
 
 int _abs(int n)
 {
-	if ( n >= 0)
+	if (n >= 0)
 	{
-		_putchar(n);
+		return (n);
 	}
 	else
 	{
-		_putchar(n * -1);
+		return (-n);
 	}
 }
