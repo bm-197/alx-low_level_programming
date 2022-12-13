@@ -21,7 +21,7 @@ void print_alphabet(void)
  * print_alphabet_x10 - print lower case alphabet 10x
  */
 
-void print_alphabt_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	
