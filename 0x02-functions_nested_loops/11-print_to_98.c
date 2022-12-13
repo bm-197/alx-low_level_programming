@@ -6,9 +6,9 @@
  * @n: first number
  */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
-	for (n, n <= 98, n++)
+	for (n; n <= 98; n++)
 	{
 		pritnf('%d', n);
 		printf(', ');
