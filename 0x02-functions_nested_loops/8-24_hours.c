@@ -17,4 +17,5 @@ void jack_baue(void)
 			_putchar('\n');
 		}
 	}
+	return (0);
 }
