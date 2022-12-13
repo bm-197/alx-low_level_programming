@@ -4,7 +4,7 @@
  * jack_baure - print every minute of the day
  */
 
-int jack_baue(void)
+void jack_baue(void)
 {
 	int i, j;
 	for (i = 0; i <= 2; i++)
@@ -17,5 +17,4 @@ int jack_baue(void)
 			_putchar('\n');
 		}
 	}
-	return (0);
 }
