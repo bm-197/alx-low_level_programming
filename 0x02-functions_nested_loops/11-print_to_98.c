@@ -8,10 +8,13 @@
 
 void print_to_98(int n)
 {
-	for (n; n <= 98; n++)
+	int n;
+
+	while (n <= 98)
 	{
-		pritnf('%d', n);
-		printf(', ');
+		printf('%d', n);
+		printf(',');
+		printf(' ');
 	}
 	printf('\n');
 }
