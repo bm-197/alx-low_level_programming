@@ -9,7 +9,10 @@
 int main(void)
 {
 	int i;
-	unsigned long num1 = 0, num2 = 1, num3;
+	unsigned long num1, num2, num3;
+
+	num1 = 0;
+	num2 = 1;
 
 	for (i = 1; i <= 49; i++)
 	{
