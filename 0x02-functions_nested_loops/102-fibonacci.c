@@ -1,0 +1,23 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - fibonnaci 
+ * Return: 0
+ */
+
+int main(void)
+{
+	int i;
+	unsigned long num1 = 0, num2 = 1, num3;
+
+	for (i = 0; i <= 50; i++)
+	{
+		num3= num1 + num3;
+		num1 = num2;
+		num2 = num3;
+		printf("%lu, ", num3);
+	}
+	return (0);
+}
+
