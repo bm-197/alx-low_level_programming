@@ -19,6 +19,6 @@ int main(void)
 			sum += num3;
 		}
 	}
-	prinf("%lu\n", sum)
+	printf("%lu\n", sum)
 	return (0);
 }
