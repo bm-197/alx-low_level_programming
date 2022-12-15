@@ -18,7 +18,7 @@ int main(void)
 		num2 = num3;
 		printf("%lu, ", num3);
 	}
-	printf("%lu\n", z + x);
+	printf("%lu\n", num3 + num1);
 	return (0);
 }
 
