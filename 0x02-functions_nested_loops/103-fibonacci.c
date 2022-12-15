@@ -16,7 +16,7 @@ int main(void)
 		num2 = num3;
 		if (num3 %2 == 0)
 		{
-			sum += z;
+			sum += num3;
 		}
 	}
 	prinf("%lu\n", sum)
