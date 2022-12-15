@@ -7,7 +7,11 @@
 
 int main(void)
 {
-	unsigned long num1 = 0, num2 = 1, num3, sum = 0;
+	unsigned long num1, num2, num3, sum;
+	
+	num1 = 0;
+	num2 = 1;
+	sum = 0;
 
 	while (num3 < 4000000)
 	{
