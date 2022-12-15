@@ -8,8 +8,9 @@
 int main(void)
 {
 	unsigned long num1, num2, num3, sum;
-	
+
 	num1 = 0;
+	num3 = 0;
 	num2 = 1;
 	sum = 0;
 
@@ -23,6 +24,7 @@ int main(void)
 			sum += num3;
 		}
 	}
-	printf("%lu\n", sum);
+	printf("%lu", sum);
+	printf("\n");
 	return (0);
 }
