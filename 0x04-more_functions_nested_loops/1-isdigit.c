@@ -8,16 +8,13 @@
 
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	if (c >= '0' && c <= '9')
 	{
-		_putchar(c);
-		_putchar(':');
 		return (1);
 	}
 	else
 	{
-		_putchar(c);
-		_putchar(':');
 		return (0);
 	}
+	_putchar('\n');
 }
