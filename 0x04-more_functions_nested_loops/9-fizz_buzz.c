@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - fizzbuzz
- * Return: 0
+ * main - Entry point
+ * Fizz for 3, Buzz for 5 and FizzBuzz for 3 and 5
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -20,13 +21,13 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else if ((i % 3 == 0) && (i % 5 ==0))
+		else if (i % 15 == 0)
 		{
 			printf("FizBuzz");
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%i", i);
 		}
 		if (i < 100)
 		{
