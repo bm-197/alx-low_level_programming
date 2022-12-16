@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-
 /**
  * main - Entry Point
  * Description: Fizz for 3, Buzz for 5 and FizzBuzz for 3 and 5
