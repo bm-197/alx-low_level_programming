@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - fizzbuzz
- * Return: 0
+ * main - Entry point
+ * Fizz for 3, Buzz for 5 and FizzBuzz for 3 and 5
+ * Return: Always 0 (Success)
  */
 
 int main(void)
