@@ -14,11 +14,11 @@ void puts_half(char *str)
 		a++;
 		if (a + 1 % 2 != '0')
 		{
-			s = (a + 1) / 2; 
+			s = (a - 1) / 2;
 		}
 		else
 		{
-			s = a / 2;
+			s = (a / 2);
 		}
 		s++;
 	}
