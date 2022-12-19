@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * print_rev - string in a rev
+  * print_rev -> string in a rev
   * @s: parameter
   * Return: nothing
   */
