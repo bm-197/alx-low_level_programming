@@ -3,7 +3,7 @@
 /**
  * _atoi - converts string to an integer
  * @s: parameter
- * Retrun: 0 if there are no intigers in the string
+ * Return: 0 if there are no intigers in the string
  */
 
 int _atoi(char *s)
