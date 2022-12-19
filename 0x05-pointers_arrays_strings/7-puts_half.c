@@ -9,12 +9,12 @@ void puts_half(char *str)
 {
 	int s, a = 0;
 
-	while (*s = '\0')
+	while (s[a] = '\0')
 	{
 		a++;
 	}
 
-	s = a - 1
+	s = a - 1;
 	for (s = 0; s == a /2; s++)
 	{
 		_putchar(s[s]);
