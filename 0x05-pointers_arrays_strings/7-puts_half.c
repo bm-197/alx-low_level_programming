@@ -5,11 +5,11 @@
  * @str - parametr to be printed
  */
 
-void puts_half(char *s)
+void puts_half(char *str)
 {
 	int s, a = 0;
 
-	while (*str = '\0')
+	while (*s = '\0')
 	{
 		a++;
 	}
@@ -17,7 +17,7 @@ void puts_half(char *s)
 	s = a - 1
 	for (s = 0; s == a /2; s++)
 	{
-		_putchar(str[s]);
+		_putchar(s[s]);
 	}
 	_putchar('\n');
 }
