@@ -15,7 +15,7 @@ void print_rev(char *s)
 		a++;
 	}
 	c = a - 1;
-	for (b = 0; c >= 0 && b < c; b++; c--)
+	for (b = 0; c >= 0 && b < c; b++, c--)
 	{
 		d = s[b];
 		s[b] = s[c];
