@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - prints intiger
+ * print_number - prints intiger
  * @n: parameter
  * Return: nothing
  */
