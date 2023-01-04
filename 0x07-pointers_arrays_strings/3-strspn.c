@@ -7,7 +7,7 @@
  * Return: s
  */
 
-char *_strchr(char *s, char *accept)
+char *_strspn(char *s, char *accept)
 {
 	int i = 0, x, y;
 
