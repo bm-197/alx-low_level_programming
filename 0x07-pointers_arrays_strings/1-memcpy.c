@@ -5,12 +5,12 @@
  * @dest: parameter
  * @src: parameter
  * @n: parametrer
- * Return: @dest
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned i = 0;
+	unsigned int i = 0;
 
 	while (i < n)
 	{
