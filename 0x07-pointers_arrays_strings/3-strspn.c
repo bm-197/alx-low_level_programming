@@ -6,8 +6,7 @@
  * @accept: parameter
  * Return: s
  */
-
-char *_strspn(char *s, char *accept)
+unsigned int *_strspn(char *s, char *accept)
 {
 	int i = 0, x, y;
 
