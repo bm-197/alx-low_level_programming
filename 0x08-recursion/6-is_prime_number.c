@@ -4,6 +4,7 @@
  * checker - prime number
  * @x: int
  * @y: int
+ * Return: int
  */
 
 int checker(int x, int y)
@@ -12,12 +13,11 @@ int checker(int x, int y)
 	{
 		return (0);
 	}
-	else if (x == y)
+	else if (x / 2 < y)
 	{
 		return (1);
 	}
 	return (checker(x, y + 1));
-	
 }
 /**
  * is_prime_number - prime number checker
