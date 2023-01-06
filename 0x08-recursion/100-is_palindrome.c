@@ -34,10 +34,10 @@ int pal_checker(char *s, int i, int j)
 		{
 			return (pal_checker(s, i + 1, j - 1));
 		}
-		else
-		{
-			return (0);
-		}
+	}
+	else
+	{
+		return (0);
 	}
 }
 /**
