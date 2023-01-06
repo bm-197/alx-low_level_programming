@@ -38,6 +38,7 @@ int pal_checker(char *s, int i, int j)
 		{
 			return (0);
 		}
+	}
 }
 /**
  * is_palindrome - check if s is palindrome
