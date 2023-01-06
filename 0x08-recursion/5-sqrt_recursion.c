@@ -17,7 +17,7 @@ int checker(int x, int y)
 	{
 		return (-1);
 	}
-	checker(x + 1, y);
+	return (checker(x + 1, y));
 }
 
 /**
@@ -25,7 +25,6 @@ int checker(int x, int y)
  * @n: int
  * Return: int
  */
-
 
 int _sqrt_recursion(int n)
 {
