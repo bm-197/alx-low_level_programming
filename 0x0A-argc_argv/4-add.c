@@ -1,38 +1,38 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - Entry
- * @argc: int
- * @argv: char
+ * main - adds positive numbers.
+ * @argc: argument count
+ * @argv: arguments
+ *
  * Return: 0
  */
-
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int i, sum = 0, nums;
-	char *charac;
+	int i, n, sum = 0;
+	char *flag;
 
-	if (argv < 2)
+	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);
 	}
-	for (i = 1; i < argc; i++)
-	{
-		nums = strtol(argv[i], &flag, 10);
 
+	for (i = 1; argv[i]; i++)
+	{
+		n = strtol(argv[i], &flag, 10);
 		if (*flag)
 		{
-			printf("Errot\n");
+			printf("Error\n");
 			return (1);
 		}
 		else
 		{
-			sum += nums;
+			sum += n;
 		}
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
