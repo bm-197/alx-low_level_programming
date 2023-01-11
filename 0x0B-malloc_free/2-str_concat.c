@@ -47,5 +47,5 @@ char *str_concat(char *s1, char *s2)
 	}
 	result[len] = '\0';
 
-	return (0);
+	return (result);
 }
