@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alloc_gri - function
+ * alloc_grid - function
  * @width: parameter
  * @height: parameter
  * Return: 0
