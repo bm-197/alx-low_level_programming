@@ -19,9 +19,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		while (s1 != '\0')
+		while (s1)
 		{
-			s1++;
 			len1++;
 		}
 	}
@@ -31,9 +30,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		while (s2 != '\0')
+		while (s2)
 		{
-			s2++;
 			len2++;
 		}
 	}
