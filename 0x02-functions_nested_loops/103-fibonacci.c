@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	unsigned long num1, num2, num3, sum;
+	unsigned long num1, num2, num3;
+	float sum;
 
 	num1 = 0;
 	num3 = 0;
@@ -19,12 +20,12 @@ int main(void)
 		num3 = num1 + num2;
 		num1 = num2;
 		num2 = num3;
-		if (num3 % 2 == 0)
+		if ((num3 % 2) == 0)
 		{
 			sum += num3;
 		}
 	}
-	printf("%lu", sum);
+	printf("%.0f", sum);
 	printf("\n");
 	return (0);
 }
