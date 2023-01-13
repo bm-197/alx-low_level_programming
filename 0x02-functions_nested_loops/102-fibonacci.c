@@ -13,7 +13,8 @@ int main(void)
 
 	num1 = 1;
 	num2 = 2;
-
+	printf("%d, ", num1);
+	printf("%d, ", num2);
 	for (i = 1; i <= 49; i++)
 	{
 		num3 = num1 + num2;
