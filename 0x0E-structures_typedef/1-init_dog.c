@@ -1,7 +1,6 @@
 #include "dog.h"
 /**
  * init_dog - intializes a structure of type dog
- *
  * @d: pointer to structure
  *
  * @name: pointer to name of the dog
