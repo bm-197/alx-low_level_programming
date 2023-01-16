@@ -11,10 +11,11 @@ int main(void)
 	int i;
 	unsigned long num1, num2, num3;
 
-	num1 = 0;
-	num2 = 1;
-
-	for (i = 1; i <= 49; i++)
+	num1 = 1;
+	num2 = 2;
+	printf("%lu, ", num1);
+	printf("%lu, ", num2);
+	for (i = 1; i <= 47; i++)
 	{
 		num3 = num1 + num2;
 		printf("%lu, ", num3);

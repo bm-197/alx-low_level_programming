@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int count;
+	int count;
 	unsigned long x, y, z, a, b, c, carry;
 
 	x = 0;
