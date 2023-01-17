@@ -3,6 +3,7 @@
 /**
  * puts_half - prints half of the string
  * @str: parametr to be printed
+ * Return: void
  */
 
 void puts_half(char *str)
@@ -18,7 +19,7 @@ void puts_half(char *str)
 	else
 		s = (a - 1) / 2;
 
-	for (; s <+ a; s++)
+	for (; s <= a; s++)
 	{
 		_putchar(str[s]);
 	}
