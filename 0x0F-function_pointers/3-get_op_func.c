@@ -18,7 +18,8 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i = 0;
-	while(oprs[i].opr != NULL && *(oprs[i].opr) != *s)
+
+	while (oprs[i].opr != NULL && *(oprs[i].opr) != *s)
 		i++;
 	return (oprs[i].opfun);
 }
