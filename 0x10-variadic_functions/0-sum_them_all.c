@@ -5,6 +5,7 @@
 /**
  * sum_them_all - returns th sum of passed argumets
  * @n: number of arguments passed
+ * @...: numbers to summed
  * Return: int sum
  */
 
