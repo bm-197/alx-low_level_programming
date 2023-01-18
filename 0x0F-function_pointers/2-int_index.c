@@ -5,6 +5,7 @@
  * @array: array to be printed
  * @size: size of the array
  * @cmp: pointer to the function
+ * Return: int
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
