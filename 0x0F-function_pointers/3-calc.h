@@ -10,8 +10,8 @@ int (*get_op_func(char *s))(int, int);
 
 typedef struct opperation
 {
-	char p;
-	int (*f)(int a, int b);
+	char *opr;
+	int (*opfun)(int a, int b);
 } opt_t;
 
 #endif
