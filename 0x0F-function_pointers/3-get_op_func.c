@@ -3,8 +3,8 @@
 
 /**
  * get_op_func - function selector
- * @s: oprator
- * Return: oprator function
+ * @s: operator
+ * Return: operator functions
  */
 
 int (*get_op_func(char *s))(int, int)
