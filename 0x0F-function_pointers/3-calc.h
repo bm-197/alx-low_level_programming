@@ -13,7 +13,7 @@ int (*get_op_func(char *s))(int, int);
  * @opr: operator
  * @opfun: function
  */
- 
+
 typedef struct operation
 {
 	char *opr;
