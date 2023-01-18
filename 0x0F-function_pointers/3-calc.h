@@ -8,7 +8,13 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-typedef struct opperation
+/**
+ * struct operation -  structure
+ * @opr: operator
+ * @opfun: function
+ */
+ 
+typedef struct operation
 {
 	char *opr;
 	int (*opfun)(int a, int b);
