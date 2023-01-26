@@ -3,13 +3,12 @@
 /**
  * _main - print string before
  * the main func excutes
- * Return: Always 0 (success)
  */
 
-#define _main main
+void __attribute__((constructor)) _main(void);
 
-int _main(void)
+void _main(void)
 {
-	printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
-	return (0);
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
