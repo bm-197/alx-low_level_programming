@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
-#include <stddef.h>
-#include <stdlib.h>
+
 /**
  * print_list - prints all the elements of a list_t list.
  * @h: a pointer to the structure
@@ -10,7 +9,7 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t size;
+	size_t size = 0;
 	list_t temp;
 	while (h)
 	{
