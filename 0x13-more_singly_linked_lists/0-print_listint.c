@@ -7,4 +7,20 @@
  * Return: size_t
  */
 
+size_t print_listint(const listint_t *h)
+{
+	listint_t *newNode;
 
+	size_t len = 0;
+
+	if (h == NULL)
+		return;
+	while (h != NULL)
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+		len++;
+	}
+	return (len);
+
+}
