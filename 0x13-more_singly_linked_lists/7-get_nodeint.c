@@ -3,7 +3,7 @@
 /**
  * get_nodeint_at_index -  returns the nth node of a listint_t linked list.
  * @head: pointer to structure
- *
+ * @index: index of the data
  * Return: returns the nth node
  * 	if the node does not exist, return NULL
  */
