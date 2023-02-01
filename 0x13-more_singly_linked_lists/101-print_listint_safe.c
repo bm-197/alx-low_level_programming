@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint_safe - prints a listint_t linked list
@@ -12,7 +13,7 @@ size_t print_listint_safe(const listint_t *head)
 	size_t len = 0;
 	long int diff;
 	if (head == NULL)
-		retutrn (NULL);
+		return (NULL);
 	while (head != NULL)
 	{
 		diff = head - head->next;
@@ -20,7 +21,7 @@ size_t print_listint_safe(const listint_t *head)
 		printf("[%p] %d\n",(void *)head, head->n);
 		if (diff > 0)
 		{
-			head = h->next;
+			head = head->next;
 		}
 		else
 		{
