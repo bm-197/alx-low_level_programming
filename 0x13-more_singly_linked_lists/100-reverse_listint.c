@@ -16,14 +16,14 @@ listint_t *reverse_listint(listint_t **head)
 
 	preNode = NULL;
 	curNode = *head;
-	nextNode = (*head)->next;
+
 
 	while (preNode != NULL)
 	{
+		nextNode = cuNode->next;
 		curNode->next = preNode;
 		preNode = curNode;
 		curNode = nextNode;
-		nextNode = nextNode->next;
 	}
 	*head = preNode;
 	return (*head);
