@@ -20,7 +20,7 @@ listint_t *reverse_listint(listint_t **head)
 
 	while (preNode != NULL)
 	{
-		nextNode = cuNode->next;
+		nextNode = curNode->next;
 		curNode->next = preNode;
 		preNode = curNode;
 		curNode = nextNode;
