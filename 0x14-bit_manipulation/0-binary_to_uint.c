@@ -15,7 +15,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int pow = 1, uint = 0;
 	int i;
 
-	if (b == '\0')
+	if (b == NULL)
 		return (0);
 
 	for (i = 0; b[i];)
@@ -30,4 +30,20 @@ unsigned int binary_to_uint(const char *b)
 		pow = pow * 2;
 	}
 	return (uint);
+}
+int main(void)
+{
+    unsigned int n;
+
+    n = binary_to_uint("1");
+    printf("%u\n", n);
+    n = binary_to_uint("101");
+    printf("%u\n", n);
+    n = binary_to_uint("1e01");
+    printf("%u\n", n);
+    n = binary_to_uint("1100010");
+    printf("%u\n", n);
+    n = binary_to_uint("0000000000000000000110010010");
+    printf("%u\n", n);
+    return (0);
 }
