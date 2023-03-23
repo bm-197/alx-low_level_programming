@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 
-int add(a, b);
-int sub(a, b);
-int mul(a, b);
-int div(a, b);
-int mod(a, b);
+int add(int a, int b);
+int sub(int a, int b);
+int mul(int a, int b);
+int div(int a, int b);
+int mod(int a, int b);
 /**
  * add - adds two number
  * @a: first num
@@ -13,7 +13,7 @@ int mod(a, b);
  * Return: the sum of a and b
  */
 
-int add(a, b)
+int add(int a, int b)
 {
 	return (a + b);
 }
@@ -24,7 +24,7 @@ int add(a, b)
  * @b: second num
  * Return: the sub of a and b
  */
-int sub(a, b)
+int sub(int a, int b)
 {
 	return (a - b);
 }
@@ -36,7 +36,7 @@ int sub(a, b)
  * Return: the product of two numbers
  */
 
-int mul(a, b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
@@ -48,7 +48,7 @@ int mul(a, b)
  * Return: the quotient
  */
 
-int div(a, b)
+int div(int a, int b)
 {
 	return (a / b);
 }
@@ -60,7 +60,7 @@ int div(a, b)
  * Return: the reminder
  */
 
-int mod(a, b)
+int mod(int a, int b)
 {
 	return (a % b);
 }
