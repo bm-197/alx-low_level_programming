@@ -5,7 +5,7 @@
  * @head: head of list
  * @index: index of the node, starting from 0
  *
- * Retrun: nth node, if the node does not exist, return NULL
+ * Return: nth node, if the node does not exist, return NULL
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
