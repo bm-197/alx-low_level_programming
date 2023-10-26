@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define island perimeter measuring fun"""
 
+
 def island_perimeter(grid):
     """Calculate the perimeter of the island
 
@@ -21,8 +22,6 @@ def island_perimeter(grid):
                 if i > 0 and grid[i - 1][j] == 1:
                     edges+=1
     perimeter = size * 4 - edges * 2           
-                
-    
     return perimeter
 
 
