@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <stdio.h>
 
 /**
  * print_array - prints the array of ints, separated with commas
@@ -74,12 +75,12 @@ int exponential_search(int *array, size_t size, int value)
 	{
 		while (i < size && array[i] < value)
 		{
-			printf("Value checked array[%lu] = [%d]\n", i, array[i]);
+			printf("Value checked array[%lu] = [%d]\n", (long)i, array[i]);
 			i *= 2;
 		}
 
 		i = i > size - 1 ? size : i + 1;
-		printf("Value found between indexes [%lu] and [%lu]\n", i / 2, i - 1);
+		printf("Value found between indexes [%lu] and [%lu]\n", (long)i / 2, (long)i - 1);
 		return (ex_binary_search(array, i, value, i / 2));
 	}
 

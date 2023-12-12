@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <stdio.h>
 
 /**
  * interpolation_search - searches for a value in an array of integers
@@ -23,11 +24,11 @@ int interpolation_search(int *array, size_t size, int value)
 
 			if (i > size)
 			{
-				printf("Value checked array[%lu] is out of range\n", i);
+				printf("Value checked array[%lu] is out of range\n", (long)i);
 				break;
 			}
 
-			printf("Value checked array[%lu] = [%d]\n", i, array[i]);
+			printf("Value checked array[%lu] = [%d]\n", (long)i, array[i]);
 
 			if (array[i] < value)
 				low = i + 1;
